@@ -1,0 +1,1271 @@
+{
+    "task": "metallicity",
+    "method": "RandomForest",
+    "params": {
+        "R": 0.0,
+        "N": 48,
+        "S": 10
+    },
+    "fold_results": {
+        "fold_0": {
+            "mae": 0.4,
+            "rmse": 0.6324555320336759,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_1": {
+            "mae": 0.1,
+            "rmse": 0.31622776601683794,
+            "mape": 0.1,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_2": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_3": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_4": {
+            "mae": 0.75,
+            "rmse": 0.8660254037844386,
+            "mape": 1.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                true
+            ]
+        },
+        "fold_5": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_6": {
+            "mae": 0.5,
+            "rmse": 0.7071067811865476,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                false,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                true,
+                false
+            ]
+        },
+        "fold_7": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_8": {
+            "mae": 0.2,
+            "rmse": 0.4472135954999579,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                false
+            ]
+        },
+        "fold_9": {
+            "mae": 0.5,
+            "rmse": 0.7071067811865476,
+            "mape": 0.5,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                0
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_10": {
+            "mae": 1.0,
+            "rmse": 1.0,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_11": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_12": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_13": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_14": {
+            "mae": 0.2,
+            "rmse": 0.4472135954999579,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_15": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_16": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_17": {
+            "mae": 0.1,
+            "rmse": 0.31622776601683794,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false
+            ]
+        },
+        "fold_18": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_19": {
+            "mae": 0.7,
+            "rmse": 0.8366600265340756,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_20": {
+            "mae": 1.0,
+            "rmse": 1.0,
+            "mape": 1.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_21": {
+            "mae": 0.3333333333333333,
+            "rmse": 0.5773502691896257,
+            "mape": 0.14285714285714285,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_22": {
+            "mae": 0.875,
+            "rmse": 0.9354143466934853,
+            "mape": 0.875,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_23": {
+            "mae": 0.8888888888888888,
+            "rmse": 0.9428090415820634,
+            "mape": 0.8888888888888888,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_24": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_25": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_26": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_27": {
+            "mae": 0.42857142857142855,
+            "rmse": 0.6546536707079771,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_28": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_29": {
+            "mae": 0.1,
+            "rmse": 0.31622776601683794,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_30": {
+            "mae": 0.875,
+            "rmse": 0.9354143466934853,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_31": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_32": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_33": {
+            "mae": 1.0,
+            "rmse": 1.0,
+            "mape": 1.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_34": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_35": {
+            "mae": 0.2,
+            "rmse": 0.4472135954999579,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false
+            ]
+        },
+        "fold_36": {
+            "mae": 0.3333333333333333,
+            "rmse": 0.5773502691896257,
+            "mape": 0.3333333333333333,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_37": {
+            "mae": 1.0,
+            "rmse": 1.0,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                1
+            ],
+            "targets": [
+                false
+            ]
+        },
+        "fold_38": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_39": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_40": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_41": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_42": {
+            "mae": 0.1,
+            "rmse": 0.31622776601683794,
+            "mape": 0.0,
+            "max_error": 1.0,
+            "predictions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "fold_43": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_44": {
+            "mae": 0.42857142857142855,
+            "rmse": 0.6546536707079771,
+            "mape": 0.42857142857142855,
+            "max_error": 1.0,
+            "predictions": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_45": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "fold_46": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                0,
+                0
+            ],
+            "targets": [
+                false,
+                false
+            ]
+        },
+        "fold_47": {
+            "mae": 0.0,
+            "rmse": 0.0,
+            "mape": 0.0,
+            "max_error": 0.0,
+            "predictions": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "targets": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        }
+    },
+    "average_metrics": {
+        "mae": 0.25026455026455025,
+        "rmse": 0.32569899979284894,
+        "mape": 0.13059689153439155,
+        "max_error": 1.0
+    }
+}
